@@ -120,7 +120,7 @@ Golden AMIs will be created for the different tiers (Nginx, Tomcat, Maven) of th
    sudo nano /etc/systemd/system/tomcat.service
    ```
 
-   Add the following content:
+   Add the following content (add to above tomcat.service file):
 
    ```ini
    [Unit]
